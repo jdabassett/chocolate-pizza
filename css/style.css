@@ -1,0 +1,44 @@
+/* NAV BAR ***************************** */
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  float: left;
+  margin-right: 5px;
+}
+
+.nav-subtitle {
+  font-size: .5rem;
+  letter-spacing: none;
+  margin: 0;
+}
+
+.cursive-font {
+  margin: 0;
+}
+
+.social-media-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav {
+  position: relative
+}
+
+.slash-border {
+  display: block;
+  margin: 20px auto;
+  border: 0px;
+  height: 10px;
+  width: 80%;
+  background-image: url(../img/hr-img.png);
+}
+/* ************************************************** */
