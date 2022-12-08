@@ -42,3 +42,6 @@ nav {
   background-image: url(../img/hr-img.png);
 }
 /* ************************************************** */
+
+main {width: 80%; margin: 0 auto}
+.main-photo{margin: 0 auto; max-width: 1000px;}
