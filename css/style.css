@@ -1,7 +1,13 @@
+:root {
+  --dark-black:#000;
+  --light-gray:#b0adacf0;
+}
+
 /* NAV BAR ***************************** */
 header {
   width: 80%;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 nav > ul > li {
@@ -11,12 +17,15 @@ nav > ul > li {
 .logo {
   float: left;
   margin-right: 5px;
+  width: 5%;
 }
 
 .nav-subtitle {
   font-size: .5rem;
   letter-spacing: none;
   margin: 0;
+  font-weight: 100;
+  font-size: 0.5rem;
 }
 
 .cursive-font {
@@ -27,6 +36,13 @@ nav > ul > li {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+  ul > li > img{
+  width: 5%;
+  border: #000;
+  float: right;
+  margin: 2px;
 }
 
 nav {
@@ -51,28 +67,100 @@ main {
   margin: 0 auto
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+#posted {
+  font-weight: bold;
+  font-size: 0.5rem;
+  width: 100%;
+  color:var(--light-gray);
+  position: relative;
+  margin-bottom: 15px;
+}
+
+span {
+  border: 2px solid black;
+  float:right;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+
 .main-photo{
   margin: 0 auto; 
   width: 100%;
 }
 
 p {
-  border:2px solid red;
   width: 100%;
   margin:10px 0 10px 0;
+  color: var(--light-gray);
 }
 
 .notepad {
   border:2px solid green;
   background-image:url(../img/list-bg.png);
   width:100%;
-  display:flex;
-  flex-direction:row;
-  flex-wrap:nowrap;
-  justify-content:space-around;
+  position: relative;
+}
+
+.list1 {
+  width: fit-content;
+  left: 5%;
+  margin-left: 38px;
+}
+
+.list2 {
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right:35%;
 }
 
 .notepad ul li {
   border:2px solid red;
   margin:6px 0 6px 0;
+  font-family: "Indie Flower", cursive;
+}
+
+
+/* ************************************************** */
+
+aside {
+  position: relative;
+}
+
+aside > img {
+  float: left;
+  margin-right: 15px;
+}
+
+aside > h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+aside > h5 {
+  width: 80%;
+}
+
+button {
+  background-color:orange;
+  border: 2px orange;
+  color: white;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.slash-border-small {
+  width: 40%;
+
 }
