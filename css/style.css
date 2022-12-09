@@ -4,7 +4,7 @@ header {
   margin: 0 auto;
 }
 
-li {
+nav > ul > li {
   display: inline;
 }
 
@@ -41,7 +41,38 @@ nav {
   width: 80%;
   background-image: url(../img/hr-img.png);
 }
+
+
 /* ************************************************** */
 
-main {width: 80%; margin: 0 auto}
-.main-photo{margin: 0 auto; max-width: 1000px;}
+main {
+  border:2px solid blue;
+  width: 80%; 
+  margin: 0 auto
+}
+
+.main-photo{
+  margin: 0 auto; 
+  width: 100%;
+}
+
+p {
+  border:2px solid red;
+  width: 100%;
+  margin:10px 0 10px 0;
+}
+
+.notepad {
+  border:2px solid green;
+  background-image:url(../img/list-bg.png);
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+}
+
+.notepad ul li {
+  border:2px solid red;
+  margin:6px 0 6px 0;
+}
